@@ -82,7 +82,7 @@
                     Oracle <span style="font-weight:bold">Crops</span>
                 </div>
                 
-                <img src="/public/img/logo-OCrops.png">
+                <img src="img/logo-OCrops.png" alt="Oracle Crops Logo" />
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
