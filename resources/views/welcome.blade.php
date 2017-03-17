@@ -79,8 +79,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Oracle Crops
+                    Oracle <span style="font-weight:bold">Crops</span>
                 </div>
+                
+                <img src="/public/img/logo-OCrops.png">
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
