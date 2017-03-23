@@ -7,7 +7,11 @@
     </li>
     
     <li>
-        Asistir a los administradores de cultivos de flores (se puede extender a otro tipo de cultivos) específicamente las hortensias (hydrangea) en alertar sobre condiciones específicas que puedan propiciar la aparición de plagas y dañar o incluso destruir un cultivo completo (cama).
+        Asistir a los administradores de cultivos de flores (se puede extender a otro tipo de cultivos) 
+    </li>
+    
+    <li>    
+        alertar sobre condiciones específicas que puedan propiciar la aparición de plagas y dañar o incluso destruir un cultivo completo (cama).
     </li>
     
     <li>
