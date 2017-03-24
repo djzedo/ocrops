@@ -1,0 +1,217 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.btn 
+{ 
+    display: inline-block; 
+    *display: inline; 
+    *zoom: 1; 
+    padding: 4px 10px 4px; 
+    margin-bottom: 0; 
+    font-size: 13px; 
+    line-height: 18px; 
+    color: #333333; 
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); 
+    vertical-align: middle; 
+    background-color: #f5f5f5; 
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6); 
+    background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6); 
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6); 
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6); 
+    background-image: linear-gradient(top, #ffffff, #e6e6e6); 
+    background-repeat: repeat-x; 
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr=#ffffff, endColorstr=#e6e6e6, GradientType=0); 
+    border-color: #e6e6e6 #e6e6e6 #e6e6e6; 
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); 
+    border: 1px solid #e6e6e6; 
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px; 
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); 
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); 
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); 
+    cursor: pointer; 
+    *margin-left: .3em; 
+}
+
+.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] 
+{ 
+    background-color: #e6e6e6; 
+}
+
+.btn-large 
+{
+    padding: 9px 14px; 
+    font-size: 15px; 
+    line-height: normal; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+}
+
+.btn:hover 
+{
+    color: #333333; 
+    text-decoration: none; 
+    background-color: #e6e6e6; 
+    background-position: 0 -15px; 
+    -webkit-transition: background-position 0.1s linear; 
+    -moz-transition: background-position 0.1s linear; 
+    -ms-transition: background-position 0.1s linear; 
+    -o-transition: background-position 0.1s linear; 
+    transition: background-position 0.1s linear; 
+}
+
+.btn-primary, .btn-primary:hover 
+{
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); 
+    color: #ffffff; 
+}
+
+.btn-primary.active 
+{ 
+    color: rgba(255, 255, 255, 0.75); 
+}
+
+.btn-primary 
+{
+    background-color: #4a77d4; 
+    background-image: -moz-linear-gradient(top, #6eb6de, #4a77d4); 
+    background-image: -ms-linear-gradient(top, #6eb6de, #4a77d4); 
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6eb6de), to(#4a77d4)); background-image: -webkit-linear-gradient(top, #6eb6de, #4a77d4); 
+    background-image: -o-linear-gradient(top, #6eb6de, #4a77d4); 
+    background-image: linear-gradient(top, #6eb6de, #4a77d4); 
+    background-repeat: repeat-x; 
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr=#6eb6de, endColorstr=#4a77d4, GradientType=0);  
+    border: 1px solid #3762bc; 
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4); 
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] 
+{ 
+    filter: none; background-color: #4a77d4; 
+}
+
+.btn-block 
+{ 
+    width: 100%; 
+    display:block; 
+}
+
+* 
+{ 
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    -ms-box-sizing:border-box; 
+    -o-box-sizing:border-box; 
+    box-sizing:border-box; 
+}
+
+html 
+{ 
+    width: 100%; 
+    height:100%; 
+    overflow:hidden; 
+}
+
+body 
+{     
+	width: 100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	background: #092756;
+	background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),-moz-linear-gradient(top,  rgba(57,173,219,.25) 0%, rgba(42,60,87,.4) 100%), -moz-linear-gradient(-45deg,  #670d10 0%, #092756 100%);
+	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -webkit-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -o-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -o-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -ms-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -ms-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg,  #670d10 0%,#092756 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
+}
+
+.login { 
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:300px;
+	height:300px;
+}
+.login h1 
+{ 
+    color: #fff; 
+    text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    letter-spacing:1px; 
+    text-align:center; 
+}
+
+input { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+input:focus 
+{ 
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); 
+}
+
+/* Planta Carnivora Mario Bross */
+body {
+  font-size: 5px;
+  
+}
+#pipeWithPlant {
+  position: absolute;
+  left: 48%;
+  top: 50%;
+}
+.pixel-size {
+  width: 1em;
+  height: 1em;
+}
+.carnivorousPlant {
+  position: absolute;
+  top: 0;
+  background-color: #050c12;
+  animation: down2up ease-out 1s alternate infinite;
+  -webkit-animation: down2up ease-out 1s alternate infinite;
+  box-shadow: 1em 0 0 #050c12, 8em 0 0 #050c12, 9em 0 0 #050c12, -1em 1em 0 #050c12, 0 1em 0 white, 1em 1em 0 white, 2em 1em 0 #050c12, 7em 1em 0 #050c12, 8em 1em 0 white, 9em 1em 0 white, 10em 1em 0 #050c12, 0 2em 0 #050c12, 1em 2em 0 white, 2em 2em 0 white, 3em 2em 0 #050c12, 6em 2em 0 #050c12, 7em 2em 0 white, 8em 2em 0 white, 9em 2em 0 #050c12, -1em 3em 0 #050c12, 0 3em 0 #df2516, 1em 3em 0 #050c12, 2em 3em 0 white, 3em 3em 0 white, 4em 3em 0 #050c12, 5em 3em 0 #050c12, 6em 3em 0 white, 7em 3em 0 white, 8em 3em 0 #050c12, 9em 3em 0 #df2516, 10em 3em 0 #050c12, -1em 4em 0 #050c12, 0 4em 0 white, 1em 4em 0 #df2516, 2em 4em 0 #050c12, 3em 4em 0 white, 4em 4em 0 white, 5em 4em 0 white, 6em 4em 0 white, 7em 4em 0 #050c12, 8em 4em 0 #df2516, 9em 4em 0 white, 10em 4em 0 #050c12, -1em 5em 0 #050c12, 0 5em 0 #df2516, 1em 5em 0 #df2516, 2em 5em 0 #df2516, 3em 5em 0 #050c12, 4em 5em 0 #050c12, 5em 5em 0 #050c12, 6em 5em 0 #050c12, 7em 5em 0 #df2516, 8em 5em 0 white, 9em 5em 0 #df2516, 10em 5em 0 #050c12, 0 6em 0 #050c12, 1em 6em 0 white, 2em 6em 0 #df2516, 3em 6em 0 #df2516, 4em 6em 0 white, 5em 6em 0 #df2516, 6em 6em 0 white, 7em 6em 0 #df2516, 8em 6em 0 #df2516, 9em 6em 0 #050c12, 1em 7em 0 #050c12, 2em 7em 0 #050c12, 3em 7em 0 #050c12, 4em 7em 0 #df2516, 5em 7em 0 white, 6em 7em 0 #050c12, 7em 7em 0 #050c12, 8em 7em 0 #050c12, 0 8em 0 #050c12, 1em 8em 0 #2c883d, 2em 8em 0 #2c883d, 3em 8em 0 #050c12, 4em 8em 0 #2c883d, 5em 8em 0 #2c883d, 6em 8em 0 #050c12, 7em 8em 0 #2c883d, 8em 8em 0 #2c883d, 9em 8em 0 #050c12, 0 9em 0 #050c12, 1em 9em 0 #050c12, 2em 9em 0 #2c883d, 3em 9em 0 #2c883d, 4em 9em 0 #2c883d, 5em 9em 0 #2c883d, 6em 9em 0 #2c883d, 7em 9em 0 #2c883d, 8em 9em 0 #050c12, 9em 9em 0 #050c12, 1em 10em 0 #050c12, 2em 10em 0 #050c12, 3em 10em 0 #2c883d, 4em 10em 0 #2c883d, 5em 10em 0 #2c883d, 6em 10em 0 #2c883d, 7em 10em 0 #050c12, 8em 10em 0 #050c12, 2em 11em 0 #050c12, 3em 11em 0 #050c12, 4em 11em 0 #050c12, 5em 11em 0 #050c12, 6em 11em 0 #050c12, 7em 11em 0 #050c12;
+  z-index: 1;
+}
+
+.pipe {
+  position: absolute;
+  background-color: #050c12;
+  box-shadow: -3em 0 0 #050c12, -2em 0 0 #050c12, -1em 0 0 #050c12, 0 0 0 #050c12, 1em 0 0 #050c12, 2em 0 0 #050c12, 3em 0 0 #050c12, 4em 0 0 #050c12, 5em 0 0 #050c12, 6em 0 0 #050c12, 7em 0 0 #050c12, 8em 0 0 #050c12, 9em 0 0 #050c12, 10em 0 0 #050c12, 11em 0 0 #050c12, 12em 0 0 #050c12, -3em 1em 0 #050c12, -2em 1em 0 #1b5443, -1em 1em 0 #1b5443, 0 1em 0 #9ee57b, 1em 1em 0 #9ee57b, 2em 1em 0 #1b5443, 3em 1em 0 #9ee57b, 4em 1em 0 #1b5443, 5em 1em 0 #1b5443, 6em 1em 0 #1b5443, 7em 1em 0 #1b5443, 8em 1em 0 #1b5443, 9em 1em 0 #1b5443, 10em 1em 0 #1b5443, 11em 1em 0 #1b5443, 12em 1em 0 #050c12, -3em 2em 0 #050c12, -2em 2em 0 #1b5443, -1em 2em 0 #1b5443, 0 2em 0 #9ee57b, 1em 2em 0 #9ee57b, 2em 2em 0 #1b5443, 3em 2em 0 #9ee57b, 4em 2em 0 #1b5443, 5em 2em 0 #1b5443, 6em 2em 0 #1b5443, 7em 2em 0 #1b5443, 8em 2em 0 #1b5443, 9em 2em 0 #1b5443, 10em 2em 0 #1b5443, 11em 2em 0 #1b5443, 12em 2em 0 #050c12, -3em 3em 0 #050c12, -2em 3em 0 #050c12, -1em 3em 0 #050c12, 0 3em 0 #050c12, 1em 3em 0 #050c12, 2em 3em 0 #050c12, 3em 3em 0 #050c12, 4em 3em 0 #050c12, 5em 3em 0 #050c12, 6em 3em 0 #050c12, 7em 3em 0 #050c12, 8em 3em 0 #050c12, 9em 3em 0 #050c12, 10em 3em 0 #050c12, 11em 3em 0 #050c12, 12em 3em 0 #050c12, -2em 4em 0 #050c12, -1em 4em 0 #1b5443, 0 4em 0 #9ee57b, 1em 4em 0 #9ee57b, 2em 4em 0 #1b5443, 3em 4em 0 #9ee57b, 4em 4em 0 #1b5443, 5em 4em 0 #1b5443, 6em 4em 0 #1b5443, 7em 4em 0 #1b5443, 8em 4em 0 #1b5443, 9em 4em 0 #1b5443, 10em 4em 0 #1b5443, 11em 4em 0 #050c12, -2em 5em 0 #050c12, -1em 5em 0 #1b5443, 0 5em 0 #9ee57b, 1em 5em 0 #9ee57b, 2em 5em 0 #1b5443, 3em 5em 0 #9ee57b, 4em 5em 0 #1b5443, 5em 5em 0 #1b5443, 6em 5em 0 #1b5443, 7em 5em 0 #1b5443, 8em 5em 0 #1b5443, 9em 5em 0 #1b5443, 10em 5em 0 #1b5443, 11em 5em 0 #050c12, -2em 6em 0 #050c12, -1em 6em 0 #1b5443, 0 6em 0 #9ee57b, 1em 6em 0 #9ee57b, 2em 6em 0 #1b5443, 3em 6em 0 #9ee57b, 4em 6em 0 #1b5443, 5em 6em 0 #1b5443, 6em 6em 0 #1b5443, 7em 6em 0 #1b5443, 8em 6em 0 #1b5443, 9em 6em 0 #1b5443, 10em 6em 0 #1b5443, 11em 6em 0 #050c12, -2em 7em 0 #050c12, -1em 7em 0 #1b5443, 0 7em 0 #9ee57b, 1em 7em 0 #9ee57b, 2em 7em 0 #1b5443, 3em 7em 0 #9ee57b, 4em 7em 0 #1b5443, 5em 7em 0 #1b5443, 6em 7em 0 #1b5443, 7em 7em 0 #1b5443, 8em 7em 0 #1b5443, 9em 7em 0 #1b5443, 10em 7em 0 #1b5443, 11em 7em 0 #050c12, -2em 8em 0 #050c12, -1em 8em 0 #1b5443, 0 8em 0 #9ee57b, 1em 8em 0 #9ee57b, 2em 8em 0 #1b5443, 3em 8em 0 #9ee57b, 4em 8em 0 #1b5443, 5em 8em 0 #1b5443, 6em 8em 0 #1b5443, 7em 8em 0 #1b5443, 8em 8em 0 #1b5443, 9em 8em 0 #1b5443, 10em 8em 0 #1b5443, 11em 8em 0 #050c12, -2em 9em 0 #050c12, -1em 9em 0 #1b5443, 0 9em 0 #9ee57b, 1em 9em 0 #9ee57b, 2em 9em 0 #1b5443, 3em 9em 0 #9ee57b, 4em 9em 0 #1b5443, 5em 9em 0 #1b5443, 6em 9em 0 #1b5443, 7em 9em 0 #1b5443, 8em 9em 0 #1b5443, 9em 9em 0 #1b5443, 10em 9em 0 #1b5443, 11em 9em 0 #050c12, -2em 10em 0 #050c12, -1em 10em 0 #1b5443, 0 10em 0 #9ee57b, 1em 10em 0 #9ee57b, 2em 10em 0 #1b5443, 3em 10em 0 #9ee57b, 4em 10em 0 #1b5443, 5em 10em 0 #1b5443, 6em 10em 0 #1b5443, 7em 10em 0 #1b5443, 8em 10em 0 #1b5443, 9em 10em 0 #1b5443, 10em 10em 0 #1b5443, 11em 10em 0 #050c12, -2em 11em 0 #050c12, -1em 11em 0 #1b5443, 0 11em 0 #9ee57b, 1em 11em 0 #9ee57b, 2em 11em 0 #1b5443, 3em 11em 0 #9ee57b, 4em 11em 0 #1b5443, 5em 11em 0 #1b5443, 6em 11em 0 #1b5443, 7em 11em 0 #1b5443, 8em 11em 0 #1b5443, 9em 11em 0 #1b5443, 10em 11em 0 #1b5443, 11em 11em 0 #050c12, -2em 12em 0 #050c12, -1em 12em 0 #1b5443, 0 12em 0 #9ee57b, 1em 12em 0 #9ee57b, 2em 12em 0 #1b5443, 3em 12em 0 #9ee57b, 4em 12em 0 #1b5443, 5em 12em 0 #1b5443, 6em 12em 0 #1b5443, 7em 12em 0 #1b5443, 8em 12em 0 #1b5443, 9em 12em 0 #1b5443, 10em 12em 0 #1b5443, 11em 12em 0 #050c12, -2em 13em 0 #050c12, -1em 13em 0 #1b5443, 0 13em 0 #9ee57b, 1em 13em 0 #9ee57b, 2em 13em 0 #1b5443, 3em 13em 0 #9ee57b, 4em 13em 0 #1b5443, 5em 13em 0 #1b5443, 6em 13em 0 #1b5443, 7em 13em 0 #1b5443, 8em 13em 0 #1b5443, 9em 13em 0 #1b5443, 10em 13em 0 #1b5443, 11em 13em 0 #050c12, -2em 14em 0 #050c12, -1em 14em 0 #1b5443, 0 14em 0 #9ee57b, 1em 14em 0 #9ee57b, 2em 14em 0 #1b5443, 3em 14em 0 #9ee57b, 4em 14em 0 #1b5443, 5em 14em 0 #1b5443, 6em 14em 0 #1b5443, 7em 14em 0 #1b5443, 8em 14em 0 #1b5443, 9em 14em 0 #1b5443, 10em 14em 0 #1b5443, 11em 14em 0 #050c12, -2em 15em 0 #050c12, -1em 15em 0 #050c12, 0 15em 0 #050c12, 1em 15em 0 #050c12, 2em 15em 0 #050c12, 3em 15em 0 #050c12, 4em 15em 0 #050c12, 5em 15em 0 #050c12, 6em 15em 0 #050c12, 7em 15em 0 #050c12, 8em 15em 0 #050c12, 9em 15em 0 #050c12, 10em 15em 0 #050c12, 11em 15em 0 #050c12, -4em 16em 0 #57c28d, -3em 16em 0 #57c28d, -2em 16em 0 #57c28d, -1em 16em 0 #57c28d, 0 16em 0 #57c28d, 1em 16em 0 #57c28d, 2em 16em 0 #57c28d, 3em 16em 0 #57c28d, 4em 16em 0 #57c28d, 5em 16em 0 #57c28d, 6em 16em 0 #57c28d, 7em 16em 0 #57c28d, 8em 16em 0 #57c28d, 9em 16em 0 #57c28d, 10em 16em 0 #57c28d, 11em 16em 0 #57c28d, 12em 16em 0 #57c28d, 13em 16em 0 #57c28d, -3em 17em 0 #57c28d, -2em 17em 0 #57c28d, -1em 17em 0 #57c28d, 0 17em 0 #57c28d, 1em 17em 0 #57c28d, 2em 17em 0 #57c28d, 3em 17em 0 #57c28d, 4em 17em 0 #57c28d, 5em 17em 0 #57c28d, 6em 17em 0 #57c28d, 7em 17em 0 #57c28d, 8em 17em 0 #57c28d, 9em 17em 0 #57c28d, 10em 17em 0 #57c28d, 11em 17em 0 #57c28d, 12em 17em 0 #57c28d;
+  z-index: 2;
+}
+
+@keyframes down2up {
+  from {
+    top: 0em; }
+
+  to {
+    top: -10em; }
+}
+@-webkit-keyframes down2up {
+  from {
+    top: 0em; }
+
+  to {
+    top: -10em; }
+}
+

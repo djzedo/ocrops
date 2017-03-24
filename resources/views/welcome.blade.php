@@ -1,70 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ config('app.locale') }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.master')
 
-        <title>Oracle Crops - Home Page</title>
+@section('title')
+    Oracle Crops - Home Page
+@stop
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
+        {!! Html::style('css/login.css') !!}
+        
+    
+@section('content')
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -83,10 +26,34 @@
                 </div>
                 
                 <img src="img/logo-OCrops.png" alt="Oracle Crops Logo" />
+                
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                
+                <div id="pipeWithPlant">
+	               <div class="pixel-size carnivorousPlant"></div>
+                        <div class="pixel-size pipe"></div>
+                </div>
+                 <br><br><br><br><br><br><br><br><br>
+                <div class="login">
+                    <br><br><br>
+    
+                    <h1><span style="font-family: 'Open Sans', sans-serif;">Login</span></h1>
+                    {!! Form::open(['url' => 'data', 'method' => 'get' ]) !!}
+                    <p>
+                        {!! Form::label('') !!}
+                        {!! Form::text('username', null, ['placeholder' => 'tu usuario']) !!}
+                    
+                        {!! Form::label('') !!}
+                        {!! Form::password('password', ['placeholder' => 'password']) !!}
+                    
+                        {!! Form::submit('Déjame Entrar!', array('class' => 'btn btn-primary btn-block btn-large')) !!}
+                    </p>
 
-                {!!Form::open(['/' => '/' ] )!!}
-                    Form::submit('submit');
-                {!!Form::close()!!}
+                    {!! Form::close() !!}
+                </div>
+                    
+
+                
                 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
@@ -96,5 +63,4 @@
                 </div>
             </div>
         </div>
-    </body>
-</html>
+@stop
