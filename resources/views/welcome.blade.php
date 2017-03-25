@@ -22,7 +22,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Oracle <span style="font-weight:bold">Crops</span>
+                    Oracle <span style= color:chartreuse;>Crops</span>
                 </div>
                 
                 <img src="img/logo-OCrops.png" alt="Oracle Crops Logo" />
@@ -44,7 +44,7 @@
                         {!! Form::text('username', null, ['placeholder' => 'tu usuario']) !!}
                     
                         {!! Form::label('') !!}
-                        {!! Form::password('password', ['placeholder' => 'password']) !!}
+                        {!! Form::password('password', ['placeholder' => 'tu contraseña']) !!}
                     
                         {!! Form::submit('Déjame Entrar!', array('class' => 'btn btn-primary btn-block btn-large')) !!}
                     </p>
